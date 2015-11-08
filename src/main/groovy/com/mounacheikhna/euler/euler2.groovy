@@ -1,5 +1,0 @@
-
-/**
- * Generate the Fibonacci Sequence
- */
-
