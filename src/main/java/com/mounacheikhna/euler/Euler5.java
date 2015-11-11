@@ -1,8 +1,6 @@
 package com.mounacheikhna.euler;
 
 import rx.Observable;
-import rx.functions.Action1;
-import rx.functions.Func1;
 
 /**
  * Created by cheikhnamouna on 11/10/15.
@@ -16,7 +14,7 @@ public class Euler5 {
         Observable<Integer> range = Observable.range(1, 19);
         Observable.sequenceEqual(
                 Observable.range(1, Integer.MAX_VALUE).flatMap(a -> range.map(b -> a % b))
-                , Observable.just(0).repeat(20))
+                , Observable.just(0).repeat(20));
 
     }
 

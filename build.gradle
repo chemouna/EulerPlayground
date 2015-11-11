@@ -20,5 +20,6 @@ dependencies {
     compile 'io.reactivex:rxjava:1.0.15'
     compile 'org.codehaus.groovy:groovy-all:2.+'
     compile 'io.reactivex:rxgroovy:+'
+    compile project('RxJavaExtensions')
 }
 
