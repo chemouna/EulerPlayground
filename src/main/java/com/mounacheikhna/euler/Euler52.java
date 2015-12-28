@@ -2,7 +2,6 @@ package com.mounacheikhna.euler;
 
 import java.util.Arrays;
 import rx.Observable;
-import rx.functions.Func1;
 
 /**
  *
@@ -47,7 +46,7 @@ public class Euler52 {
   }
 
   public static <T> Observable.Transformer<T, String> toStringSeq() {
-    return o -> o.map(t -> String.valueOf(t));
+    return o -> o.map(String::valueOf);
   }
 
 }
