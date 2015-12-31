@@ -13,16 +13,14 @@ apply plugin: 'java'
 
 
 dependencies {
-
     repositories {
         jcenter()
         mavenCentral()
     }
 
-
     compile 'io.reactivex:rxjava:+'
     compile 'org.codehaus.groovy:groovy-all:2.+'
     compile 'io.reactivex:rxgroovy:+'
-    compile project('RxJavaExtensions')
+    //compile project('RxJavaExtensions')
 }
 
