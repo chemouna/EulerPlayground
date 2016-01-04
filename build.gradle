@@ -18,9 +18,9 @@ dependencies {
         mavenCentral()
     }
 
-    compile 'io.reactivex:rxjava:+'
-    compile 'org.codehaus.groovy:groovy-all:2.+'
-    compile 'io.reactivex:rxgroovy:+'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'org.codehaus.groovy:groovy-all:2.4.5'
+    compile 'io.reactivex:rxgroovy:1.0.3'
     //compile project('RxJavaExtensions')
 }
 
