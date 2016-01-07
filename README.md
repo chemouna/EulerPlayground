@@ -1,2 +1,2 @@
-# RxEuler
-Solving some problems with Rx (RxJava) from Project Euler and other problem solving sites.
+# Euler Playgroun
+Solving project Euler problems in various langages (Java, Groovy, Scala, Haskala) and with different paradigms (functional, Rx,...)
