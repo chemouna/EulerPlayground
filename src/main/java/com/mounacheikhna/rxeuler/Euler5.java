@@ -1,4 +1,4 @@
-package com.mounacheikhna.euler;
+package com.mounacheikhna.rxeuler;
 
 import rx.Observable;
 

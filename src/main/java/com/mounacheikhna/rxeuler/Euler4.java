@@ -1,10 +1,6 @@
-package com.mounacheikhna.euler;
+package com.mounacheikhna.rxeuler;
 
 import rx.Observable;
-import rx.Subscriber;
-import rx.functions.Action1;
-import rx.functions.Func1;
-import rx.functions.Func2;
 
 /**
  * Created by cheikhnamouna on 11/10/15.

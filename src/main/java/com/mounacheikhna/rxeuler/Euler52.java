@@ -1,4 +1,4 @@
-package com.mounacheikhna.euler;
+package com.mounacheikhna.rxeuler;
 
 import java.util.Arrays;
 import rx.Observable;

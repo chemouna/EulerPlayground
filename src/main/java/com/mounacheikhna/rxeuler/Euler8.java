@@ -1,4 +1,4 @@
-package com.mounacheikhna.euler;
+package com.mounacheikhna.rxeuler;
 
 /**
  * Created by cheikhnamouna on 1/2/16.

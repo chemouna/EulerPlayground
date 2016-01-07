@@ -1,4 +1,4 @@
-package com.mounacheikhna.euler.groovy
+package com.mounacheikhna.rxeuler.groovy
 
 import rx.Observable;
 

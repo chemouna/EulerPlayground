@@ -1,6 +1,4 @@
-package com.mounacheikhna.euler;
-
-import java.util.Observable;
+package com.mounacheikhna.rxeuler;
 
 /**
  * Created by m.cheikhna on 30/12/2015.
