@@ -39,3 +39,30 @@
 ;  (= 2 (reduce +
 ;               (for [i (range 1 (inc n))]
 ;                 (if (= 0 (mod n i)) 1 0)))))
+
+
+; dissoc
+(println (dissoc {:a 1 :b 2 :c 3} :c))
+(println (dissoc {:a 1 :b 2 :c 3 :d 4} :b :c))
+
+; assoc
+(println (assoc {} :key1 "v1", :key2 "v2"))
+(println (assoc [2 3] 0 10))
+(println (assoc [1 2 3] 1 `(5 6)))
+
+; recur
+(def factorial
+  (fn [n]
+    (loop [cnt n acc 1]
+      (if (zero? cnt)
+        acc
+        (recur (dec cnt) (* acc cnt)))
+      )
+    )
+  )
+
+(println (factorial 4))
+
+; if-let
+
+; lazy-seq
